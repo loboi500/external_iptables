@@ -1,17 +1,3 @@
-# -*- Makefile -*-
-
-include_HEADERS =
-nobase_include_HEADERS = xtables.h xtables-version.h
-
-if ENABLE_LIBIPQ
-include_HEADERS += libipq/libipq.h
-endif
-
-nobase_include_HEADERS += \
-	libiptc/ipt_kernel_headers.h libiptc/libiptc.h \
-	libiptc/libip6tc.h libiptc/libxtc.h libiptc/xtcshared.h
-
-uninstall-hook:
-	dir=${includedir}/libiptc; { \
-		test ! -d "$$dir" && test ! -f "$$dir" && test ! -r "$$dir"; \
-	} || rmdir -p --ignore-fail-on-non-empty "$$dir"
+version https://git-lfs.github.com/spec/v1
+oid sha256:10c7a84fa0678eabfe4a8dd665cdde452a49207ccfb2db353ec745f9076418c8
+size 450

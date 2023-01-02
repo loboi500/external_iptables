@@ -1,10 +1,3 @@
-{
-    "presubmit": [
-        { "name": "libnetdbpf_test" },
-        { "name": "netd_integration_test" },
-        { "name": "netd_unit_test" },
-        { "name": "netdutils_test" },
-        { "name": "resolv_integration_test" },
-        { "name": "resolv_unit_test" }
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:050bc1256295890557229c0566cd95fdd8b5ffefa4f24a6489257ebc33666887
+size 275
